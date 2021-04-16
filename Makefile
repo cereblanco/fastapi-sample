@@ -5,7 +5,7 @@ build:
 	docker build -t app_img .
 
 run: 
-	docker run -d -v `pwd`:/app -d --name app  -p 8000:80 app_img
+	docker run -d -v `pwd`:/app -d --name app  -p 8000:80 app_img  /start-reload.sh
 
 test:
 	docker exec -it app poetry run pytest tests
