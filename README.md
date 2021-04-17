@@ -4,9 +4,6 @@
 - uses Poetry https://github.com/python-poetry/poetry
 - with black, isort, flake8, mypy, pytest
 
-TODO: 
-- add github actions
-
 # How to run?
 
 1. Build uvicorn docker
