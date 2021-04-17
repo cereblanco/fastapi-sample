@@ -41,5 +41,5 @@ jobs:
       - name: Run mypy
         run: poetry run mypy app tests
       - name: Run tests
-        run: poetry run app tests
+        run: poetry run pytest tests
       
